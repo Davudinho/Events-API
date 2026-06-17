@@ -1,0 +1,23 @@
+# Virtuelle Umgebungen
+venv/
+.env/
+
+# Python-Caches
+__pycache__/
+*.pyc
+*.pyo
+
+# Lokale Datenbanken
+*.db
+*.sqlite*
+instance/
+
+# Git
+.git/
+.gitignore
+
+# Tests müssen nicht ins Runtime-Image
+tests/
+
+# Sonstige lokale Dinge
+*.log
